@@ -1,0 +1,178 @@
+{
+    "Logistic Regression": {
+        "Accuracy": 0.8364,
+        "AUC": 0.9056,
+        "Precision": 0.4033,
+        "Recall": 0.8299,
+        "F1": 0.5428,
+        "MCC": 0.5016,
+        "Standard_Threshold": 0.5,
+        "Optimal_Threshold_F1": 0.74,
+        "Optimal_Threshold_MCC": 0.56,
+        "Youden_J_Threshold": 0.5136,
+        "Metrics_At_Optimal_Threshold": {
+            "Accuracy": 0.8901,
+            "Precision": 0.5247,
+            "Recall": 0.6418,
+            "F1": 0.5774,
+            "MCC": 0.5184
+        },
+        "Best_Hyperparameters": {
+            "C": 5.0,
+            "class_weight": "balanced"
+        },
+        "CV_Score": 0.5523,
+        "Model_File": "model_logistic_regression.joblib",
+        "Confusion_Matrix": [
+            [
+                6686,
+                1299
+            ],
+            [
+                180,
+                878
+            ]
+        ]
+    },
+    "Decision Tree": {
+        "Accuracy": 0.8403,
+        "AUC": 0.8553,
+        "Precision": 0.407,
+        "Recall": 0.7987,
+        "F1": 0.5392,
+        "MCC": 0.4926,
+        "Standard_Threshold": 0.5,
+        "Optimal_Threshold_F1": 0.78,
+        "Optimal_Threshold_MCC": 0.78,
+        "Youden_J_Threshold": 0.407,
+        "Metrics_At_Optimal_Threshold": {
+            "Accuracy": 0.8846,
+            "Precision": 0.5051,
+            "Recall": 0.6569,
+            "F1": 0.5711,
+            "MCC": 0.5115
+        },
+        "Best_Hyperparameters": {
+            "class_weight": "balanced",
+            "max_depth": 15,
+            "min_samples_leaf": 10,
+            "min_samples_split": 10
+        },
+        "CV_Score": 0.5438,
+        "Model_File": "model_decision_tree.joblib",
+        "Confusion_Matrix": [
+            [
+                6754,
+                1231
+            ],
+            [
+                213,
+                845
+            ]
+        ]
+    },
+    "KNN": {
+        "Accuracy": 0.8943,
+        "AUC": 0.8359,
+        "Precision": 0.5746,
+        "Recall": 0.3715,
+        "F1": 0.4512,
+        "MCC": 0.4072,
+        "Standard_Threshold": 0.5,
+        "Optimal_Threshold_F1": 0.28,
+        "Optimal_Threshold_MCC": 0.28,
+        "Youden_J_Threshold": 0.1587,
+        "Metrics_At_Optimal_Threshold": {
+            "Accuracy": 0.8826,
+            "Precision": 0.4984,
+            "Recall": 0.5983,
+            "F1": 0.5438,
+            "MCC": 0.4797
+        },
+        "Best_Hyperparameters": {
+            "n_neighbors": 5,
+            "weights": "distance"
+        },
+        "CV_Score": 0.43,
+        "Model_File": "model_knn.joblib",
+        "Confusion_Matrix": [
+            [
+                7694,
+                291
+            ],
+            [
+                665,
+                393
+            ]
+        ]
+    },
+    "Naive Bayes": {
+        "Accuracy": 0.8765,
+        "AUC": 0.8441,
+        "Precision": 0.4737,
+        "Recall": 0.5028,
+        "F1": 0.4878,
+        "MCC": 0.4179,
+        "Standard_Threshold": 0.5,
+        "Optimal_Threshold_F1": 0.45,
+        "Optimal_Threshold_MCC": 0.47,
+        "Youden_J_Threshold": 0.0949,
+        "Metrics_At_Optimal_Threshold": {
+            "Accuracy": 0.8725,
+            "Precision": 0.4607,
+            "Recall": 0.5265,
+            "F1": 0.4914,
+            "MCC": 0.4201
+        },
+        "Best_Hyperparameters": {
+            "var_smoothing": 0.1
+        },
+        "CV_Score": 0.4793,
+        "Model_File": "model_naive_bayes.joblib",
+        "Confusion_Matrix": [
+            [
+                7394,
+                591
+            ],
+            [
+                526,
+                532
+            ]
+        ]
+    },
+    "Support Vector Machine": {
+        "Accuracy": 0.838,
+        "AUC": 0.923,
+        "Precision": 0.4103,
+        "Recall": 0.88,
+        "F1": 0.5597,
+        "MCC": 0.5282,
+        "Standard_Threshold": 0.5,
+        "Optimal_Threshold_F1": 0.27,
+        "Optimal_Threshold_MCC": 0.24,
+        "Youden_J_Threshold": 0.1059,
+        "Metrics_At_Optimal_Threshold": {
+            "Accuracy": 0.881,
+            "Precision": 0.4944,
+            "Recall": 0.7524,
+            "F1": 0.5967,
+            "MCC": 0.5465
+        },
+        "Best_Hyperparameters": {
+            "C": 1.0,
+            "class_weight": "balanced"
+        },
+        "CV_Score": 0.5778,
+        "Model_File": "model_svm.joblib",
+        "Confusion_Matrix": [
+            [
+                6647,
+                1338
+            ],
+            [
+                127,
+                931
+            ]
+        ]
+    }
+}
